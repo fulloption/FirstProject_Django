@@ -8,5 +8,5 @@ from FirstApp import views
 
 urlpatterns = [
     path('', views.home),
-    path('blog/<int:post_id>', views.post_detail, name="post_detail"),
+    path('www/<int:post_id>', views.post_detail, name="post_detail"),
 ]
