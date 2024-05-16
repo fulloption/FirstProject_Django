@@ -1,26 +1,26 @@
-From example : https://devhub.in.th/blog/django-python
-Project : FirstProject
-App : FristApp
+From example : https://devhub.in.th/blog/django-python<br>
+Project : FirstProject<br>
+App : FristApp<br>
 
 
-myproject/
-├── myproject/
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   ├── asgi.py
-│   └── wsgi.py
-├── myapp/
-│   ├── migrations/
-│   │   └── __init__.py
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── tests.py
-│   └── views.py
-├── manage.py
-└── requirements.txt
+myproject/<br>
+├── myproject/<br>
+│   ├── __init__.py<br>
+│   ├── settings.py<br>
+│   ├── urls.py<br>
+│   ├── asgi.py<br>
+│   └── wsgi.py<br>
+├── myapp/<br>
+│   ├── migrations/<br>
+│   │   └── __init__.py<br>
+│   ├── __init__.py<br>
+│   ├── admin.py<br>
+│   ├── apps.py<br>
+│   ├── models.py<br>
+│   ├── tests.py<br>
+│   └── views.py<br>
+├── manage.py<br>
+└── requirements.txt<br> 
 
 
 รายละเอียดแต่ละไฟล์และไดเรกทอรี
