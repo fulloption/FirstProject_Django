@@ -23,5 +23,6 @@ from django.urls import path
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('',include('FirstApp.urls')),
+    path('app',include('FirstApp.urls')),
+    path('api',include('FirstApi.urls')),
 ]
