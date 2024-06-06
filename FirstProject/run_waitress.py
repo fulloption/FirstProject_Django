@@ -3,4 +3,4 @@ from FirstProject.wsgi import application  # นำเข้า WSGI application
 
 if __name__ == '__main__':
     # ใช้ serve function เพื่อรันแอปพลิเคชันบนเซิร์ฟเวอร์ Waitress
-    serve(application, host='0.0.0.0', port=8001)
+    serve(application, host='0.0.0.0', port=8000)
