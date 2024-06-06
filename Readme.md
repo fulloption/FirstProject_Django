@@ -59,5 +59,6 @@ project/<br>
         FirstApp/views.py: กำหนดมุมมอง (views) สำหรับการตอบสนองต่อคำขอของผู้ใช้
 
     manage.py: สคริปต์สำหรับการจัดการโปรเจกต์ เช่น การรันเซิร์ฟเวอร์, การทำ makemigrations,migrations 
-
+    Run : run_waitress.py [port=8000]
+    url : http://localhost:8000/ 
     
