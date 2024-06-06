@@ -4,6 +4,14 @@ App : FristApp<br>
 
 
 project/<br>
+├── FirstApi/<br>
+│   ├── __init__.py<br>
+│   ├── urls.py<br>
+│   ├── models.py<br>
+│   ├── apps.py<br>
+│   ├── admin.py<br>
+│   ├── serializers.py<br>
+│   └── views.py<br>
 ├── FirstProject/<br>
 │   ├── __init__.py<br>
 │   ├── settings.py<br>
@@ -23,6 +31,16 @@ project/<br>
 
 
 รายละเอียดแต่ละไฟล์และไดเรกทอรี
+
+    FirstApi/
+        init.py: ไฟล์นี้อ้างอิงโมดูลทั้งหมดในแอปพลิเคชัน FirstApi
+        admin.py: ไฟล์นี้กำหนดค่าการแสดงผลข้อมูลใน Django admin
+        apps.py: ไฟล์นี้กำหนดค่าแอปพลิเคชัน FirstApi
+        models.py: ไฟล์นี้กำหนดโครงสร้างฐานข้อมูลสำหรับแอปพลิเคชัน FirstApi
+        serializers.py: ไฟล์นี้แปลงข้อมูลระหว่าง Python objects กับ JSON
+        tests.py: ไฟล์นี้เก็บ unit tests สำหรับแอปพลิเคชัน FirstApi
+        urls.py: ไฟล์นี้กำหนด URL patterns สำหรับแอปพลิเคชัน FirstApi
+        views.py: ไฟล์นี้เก็บ function views สำหรับแอปพลิเคชัน FirstApi
 
     FirstProject/
         FirstProject/init.py: ไฟล์นี้บอก Python ว่าไดเรกทอรีนี้ควรได้รับการปฏิบัติเป็นแพ็กเกจ
