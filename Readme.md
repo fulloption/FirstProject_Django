@@ -25,9 +25,12 @@ project/<br>
 │   ├── __init__.py<br>
 │   ├── admin.py<br>
 │   ├── apps.py<br>
-│   ├── models.py<br>
+│   ├── models/<br>
+│   │   └── Post.py<br>
+│   │   └── ForTestInspec.py<br>
 │   ├── tests.py<br>
-│   └── views.py<br>
+│   ├── views/<br>
+│   │   └── views.py<br>
 └── manage.py<br> 
 
 
@@ -48,9 +51,9 @@ project/<br>
         FirstApp/init.py: ไฟล์บอก Python ว่าไดเรกทอรีนี้เป็นแพ็กเกจ
         FirstApp/admin.py: กำหนดการจัดการข้อมูลผ่าน Django admin interface
         FirstApp/apps.py: กำหนดการตั้งค่าแอปพลิเคชัน
-        FirstApp/models.py: กำหนดแบบจำลอง (models) ของข้อมูล
+        FirstApp/models/Post.py: กำหนดแบบจำลอง (models) ของข้อมูล
         FirstApp/tests.py: เขียนทดสอบต่างๆ สำหรับแอปพลิเคชัน
-        FirstApp/views.py: กำหนดมุมมอง (views) สำหรับการตอบสนองต่อคำขอของผู้ใช้
+        FirstApp/views/views.py: กำหนดมุมมอง (views) สำหรับการตอบสนองต่อคำขอของผู้ใช้
 
     FirstProject/
         FirstProject/init.py: ไฟล์นี้บอก Python ว่าไดเรกทอรีนี้ควรได้รับการปฏิบัติเป็นแพ็กเกจ
