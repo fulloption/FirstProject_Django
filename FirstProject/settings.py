@@ -86,9 +86,9 @@ DATABASES = {
 #     # 'ENGINE': 'cx_Oracle',
 #     'ENGINE': 'django.db.backends.oracle',
 #     'NAME': 'WST0',  # This can be either SID or service name
-#     'USER': 'WEBSKYT5',
-#     'PASSWORD': 'WEBSKYT5',
-#     'HOST': '192.168.247.2',
+#     'USER': 'TEST',
+#     'PASSWORD': 'TEST',
+#     'HOST': '192.168.XXX.XXX',
 #     'PORT': '1521',  # Default port for Oracle
 #
 #
