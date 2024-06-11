@@ -81,7 +81,30 @@ DATABASES = {
         "NAME": BASE_DIR / "db.sqlite3",
     }
 }
-
+# DATABASES = {
+#   'default': {
+#     # 'ENGINE': 'cx_Oracle',
+#     'ENGINE': 'django.db.backends.oracle',
+#     'NAME': 'WST0',  # This can be either SID or service name
+#     'USER': 'WEBSKYT5',
+#     'PASSWORD': 'WEBSKYT5',
+#     'HOST': '192.168.247.2',
+#     'PORT': '1521',  # Default port for Oracle
+#
+#
+#   }
+# }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'mssql',
+#         'NAME': 'your_database_name',
+#         'HOST': 'your_server_address',
+#         'PORT': '1433',  # Default SQL Server port
+#         'USER': 'your_username',
+#         'PASSWORD': 'your_password',
+#         'Trusted_Connection': 'yes',  # Use Windows Authentication (optional)
+#     }
+# }
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
@@ -129,4 +152,3 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-

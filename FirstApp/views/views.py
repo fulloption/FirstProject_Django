@@ -1,7 +1,6 @@
 # blog/views.py
 from django.shortcuts import render
-from django.http import HttpResponse
-from .models import Post
+from FirstApp.models.Post import Post
 
 def home(request):
     posts = Post.objects.all()
