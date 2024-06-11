@@ -1,7 +1,8 @@
 From example : https://devhub.in.th/blog/django-python<br>
 Project : FirstProject<br>
 App : FristApp<br>
-
+API : FristApi<br>
+project run on PyCharm + anaconda3 python3.10
 
 project/<br>
 ├── FirstApi/<br>
